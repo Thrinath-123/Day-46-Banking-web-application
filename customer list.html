@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>View Customers</title>
+
+    <!-- Googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- title section -->
+    <section id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <h2 class="navbar-heading">Basic Banking System</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="customer list.html">View Customers</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about.html">About Bank</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="my-info text-center">
+            <button class="btn btn-outline-light" data-toggle="modal" data-target="#sendMoney">Send Money</button>
+            <a class="btn btn-outline-light"  data-toggle="modal" data-target="#transactionHistory">See All Transactions</a>
+        </div>
+
+    </section>
+
+
+    <section id="main" class="coloured-section">
+
+       
+       <!--Table-->
+        <div iv class="container">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Sr. No.</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">E-Mail ID</th>
+                            <th scope="col">Bank Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td scope="row">1</td>
+                            <td>Shashank Mahajan</td>
+                            <td>shashank@gmail.com</td>
+                            <td>
+                                <p id="shashankBankBalance">90200</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">2</td>
+                            <td>Shubham Kolate</td>
+                            <td>shubham@email.com</td>
+                            <td>
+                                <p id="shubhamBankBalance">61050</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">3</td>
+                            <td>Mayank Patil</td>
+                            <td>mayank@gmail.com</td>
+                            <td>
+                                <p id="mayankBankBalance">57700</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">4</td>
+                            <td>Akash Bhamare</td>
+                            <td>akash@gmail.com</td>
+                            <td>
+                                <p id="akashBankBalance">85980</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">5</td>
+                            <td>Purva Nikam</td>
+                            <td>purva@gmail.com</td>
+                            <td>
+                                <p id="purvaBankBalance">45200</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">6</td>
+                            <td>Revti Patil</td>
+                            <td>revti@gmail.com</td>
+                            <td>
+                                <p id="revtiBankBalance">68000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">7</td>
+                            <td>Kartik Bhadane</td>
+                            <td>kirti@gmail.com</td>
+                            <td>
+                                <p id="kartikBankBalance">41000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">8</td>
+                            <td>Ashwini Kadam</td>
+                            <td>ashwini96@gmail.com</td>
+                            <td>
+                                <p id="ashwiniBankBalance">36700</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">9</td>
+                            <td>Parth Pawar</td>
+                            <td>parthpawar2@gmail.com</td>
+                            <td>
+                                <p id="parthBankBalance">40700</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">10</td>
+                            <td>Aditya Patil</td>
+                            <td>aditya@gmail98.com</td>
+                            <td>
+                                <p id="adityaBankBalance">85000</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
